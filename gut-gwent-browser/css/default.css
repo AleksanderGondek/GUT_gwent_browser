@@ -1,1 +1,57 @@
-﻿
+﻿.card-tile {
+    width: 190px;
+    min-width: 190px;
+    max-width: 190px;
+
+    height: 320px;
+    min-height: 320px;
+    max-height: 320px;
+
+    padding: 5px;
+}
+
+.win-selected .card-tile {
+    opacity: 0.6;
+}
+
+.neutral-border {
+    background-color: #647687;
+}
+
+.northern-realms-border {
+    background-color: #16499a;
+}
+
+.nilfgaard-border {
+    background-color: #f0a30a;
+}
+
+.scoiatael-border {
+    background-color: #008a00;
+}
+
+.monsters-border {
+    background-color: #a20025;
+}
+
+.card-image {
+    margin-bottom: 5px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+
+.navbar-brand,
+.navbar-nav li a {
+    line-height: 50px;
+    height: 50px;
+    padding-top: 0;
+}
+    
+/* CSS applied to the ListViews in this sample */
+#listView
+{
+    height: 500px;
+}
+

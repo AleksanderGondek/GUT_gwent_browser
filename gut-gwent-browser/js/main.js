@@ -11,7 +11,7 @@
         // Restore application state here.
       }
       args.setPromise(WinJS.UI.processAll().then(function() {
-        // TODO: Your code here.
+          // TODO: Your code here.
       }));
     }
   };

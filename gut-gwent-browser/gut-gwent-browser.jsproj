@@ -60,6 +60,10 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="images\60banana.png" />
+    <Content Include="images\cardImages\geralt-of-rivia-big.jpg" />
+    <Content Include="images\cardImages\geralt-of-rivia-preview.jpg" />
+    <Content Include="images\gwentcardgame-main-ico.png" />
+    <Content Include="images\gwentcardgame-main-logo-no-text.png" />
     <Content Include="images\gwentcardgame-main-logo.png" />
     <Content Include="index.html" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
@@ -69,13 +73,31 @@
     <Content Include="images\Square44x44Logo.targetsize-24_altform-unplated.png" />
     <Content Include="images\StoreLogo.png" />
     <Content Include="images\Wide310x150Logo.scale-200.png" />
+    <Content Include="js\browser.js" />
     <Content Include="js\data.js" />
+    <Content Include="js\elo.js" />
     <Content Include="js\main.js" />
     <Content Include="css\default.css" />
+    <Content Include="lib\angular-winjs-4.4.0\angular-1.3.9.min.js" />
+    <Content Include="lib\angular-winjs-4.4.0\angular-winjs.js" />
     <Content Include="lib\winjs-4.0.1\js\base.js" />
     <Content Include="lib\winjs-4.0.1\js\ui.js" />
     <Content Include="lib\winjs-4.0.1\css\ui-light.css" />
     <Content Include="lib\winjs-4.0.1\css\ui-dark.css" />
+    <Content Include="lib\winjs-4.4.0\css\ui-dark.css" />
+    <Content Include="lib\winjs-4.4.0\css\ui-dark.min.css" />
+    <Content Include="lib\winjs-4.4.0\css\ui-light.css" />
+    <Content Include="lib\winjs-4.4.0\css\ui-light.min.css" />
+    <Content Include="lib\winjs-4.4.0\fonts\Symbols.ttf" />
+    <Content Include="lib\winjs-4.4.0\js\base.js" />
+    <Content Include="lib\winjs-4.4.0\js\base.min.js" />
+    <Content Include="lib\winjs-4.4.0\js\base.min.js.map" />
+    <Content Include="lib\winjs-4.4.0\js\en-US\ui.strings.js" />
+    <Content Include="lib\winjs-4.4.0\js\ui.js" />
+    <Content Include="lib\winjs-4.4.0\js\ui.min.js" />
+    <Content Include="lib\winjs-4.4.0\js\ui.min.js.map" />
+    <Content Include="lib\winjs-4.4.0\js\WinJS.intellisense-setup.js" />
+    <Content Include="lib\winjs-4.4.0\js\WinJS.intellisense.js" />
     <Content Include="lib\winstrap-0.5.10\css\winstrap-optional.css" />
     <Content Include="lib\winstrap-0.5.10\css\winstrap-optional.css.map" />
     <Content Include="lib\winstrap-0.5.10\css\winstrap-optional.min.css" />
