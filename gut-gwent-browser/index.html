@@ -24,7 +24,7 @@
         <!-- Application itself -->
         <script src="js/main.js"></script>
         <script src="js/browser.js"></script>
-        <script src="js/elo.js"></script>
+        <script src="js/listViewsResize.js"></script>
         <link href="css/default.css" rel="stylesheet" />
     </head>
     <body class="color-bg-light-vivid-low color-type-primary">
@@ -87,10 +87,33 @@
             </div>
         </div>
         <div ng-show="currentView === applicationViews[1]">
-            <p>{{test()}}</p>
+            <win-list-view item-data-source="cards2" selection="cardsSelected2" selection-mode="'none'" id="listView2">
+                <win-list-view-header></win-list-view-header>
+                <win-item-template>
+                    <div class="card-tile color-bg-light-neutral-mid" ng-class="getCardStyleFromFaction(item.data.faction)">
+                        <div class="card-image">
+                            <img ng-src="{{item.data.image}}" />
+                        </div>
+                        <p class="type-t9 no-padding">
+                            <strong>Name: </strong>{{item.data.name}}
+                        </p>
+                        <p class="type-t9 no-padding">
+                            <strong>Strength: </strong>{{item.data.strength}}
+                        </p>
+                        <p class="type-t9 no-padding">
+                            <strong>Abilities: </strong>{{item.data.abilities}}
+                        </p>
+                    </div>
+                </win-item-template>
+                <win-grid-layout></win-grid-layout>
+                <win-list-view-footer></win-list-view-footer>
+            </win-list-view>
         </div>
         <div ng-show="currentView === applicationViews[2]">
-            <p>About</p>
+            <h4><span class="glyph glyph-help" aria-hidden="true"></span> About</h4>
+            <p>This is a simple application, written to learn how to use Windows Universals Apps with WinJs.</p>
+            <p>Subject of this program was picked due to my interests – I just like playing Gwent.</p>
+            <p>I do not lay claims to any of CDPROJECT-RED copyrights and every graphical asset used here belongs solely to its respective owner.</p>
         </div>
         <div id="listItemFlyout" data-win-control="WinJS.UI.Flyout">
             <img id="cardDetailsImage" src="#"/>

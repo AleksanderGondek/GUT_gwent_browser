@@ -49,8 +49,7 @@
     padding-top: 0;
 }
     
-/* CSS applied to the ListViews in this sample */
-#listView
+#listView, #listView2
 {
     height: 500px;
 }
