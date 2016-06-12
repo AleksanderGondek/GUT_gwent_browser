@@ -611,6 +611,8 @@ app.service('cards', function () {
             },
             {
                 name: 'Nausicaa Cavalry Brigade',
+
+
                 strength: 2,
                 abilities: 'Bond',
                 faction: 'Nilfgaard',
@@ -635,6 +637,204 @@ app.service('cards', function () {
                 isHero: false,
                 image: 'images/cardImages/young-emissary-preview.jpg',
                 imageBig: 'images/cardImages/young-emissary-big.jpg'
+            },
+            {
+                name: 'Eithne',
+                strength: 10,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: true,
+                image: 'images/cardImages/eithne-preview.jpg',
+                imageBig: 'images/cardImages/eithne-big.jpg'
+            },
+            {
+                name: 'Saesenthessis',
+                strength: 10,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: true,
+                image: 'images/cardImages/saesenthessis-preview.jpg',
+                imageBig: 'images/cardImages/saesenthessis-big.jpg'
+            },
+            {
+                name: 'Isengrim faolitarna',
+                strength: 10,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: true,
+                image: 'images/cardImages/isengrim-faolitarna-preview.jpg',
+                imageBig: 'images/cardImages/isengrim-faolitarna-big.jpg'
+            },
+            {
+                name: 'Iorveth',
+                strength: 10,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: true,
+                image: 'images/cardImages/iorveth-preview.jpg',
+                imageBig: 'images/cardImages/iorveth-big.jpg'
+            },
+            {
+                name: 'Dennis Cranmer',
+                strength: 6,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/dennis-cranmer-preview.jpg',
+                imageBig: 'images/cardImages/dennis-cranmer-big.jpg'
+            },
+            {
+                name: 'Milva',
+                strength: 10,
+                abilities: 'Morale',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/milva-preview.jpg',
+                imageBig: 'images/cardImages/milva-big.jpg'
+            },
+            {
+                name: 'Ida Emean Aep Sivney',
+                strength: 6,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/ida-emean-aep-sivney-preview.jpg',
+                imageBig: 'images/cardImages/ida-emean-aep-sivney-big.jpg'
+            },
+            {
+                name: 'Filavandrel Aen Fidhail',
+                strength: 6,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/filavandrel-aen-fidhail-preview.jpg',
+                imageBig: 'images/cardImages/filavandrel-aen-fidhail-big.jpg'
+            },
+            {
+                name: 'Yaevinn',
+                strength: 6,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/yaevinn-preview.jpg',
+                imageBig: 'images/cardImages/yaevinn-big.jpg'
+            },
+            {
+                name: 'Toruviel',
+                strength: 2,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/toruviel-preview.jpg',
+                imageBig: 'images/cardImages/toruviel-big.jpg'
+            },
+            {
+                name: 'Riordain',
+                strength: 1,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/riordain-preview.jpg',
+                imageBig: 'images/cardImages/riordain-big.jpg'
+            },
+            {
+                name: 'Ciaran Aep Easnillien',
+                strength: 3,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/ciaran-aep-easnillien-preview.jpg',
+                imageBig: 'images/cardImages/ciaran-aep-easnillien-big.jpg'
+            },
+            {
+                name: 'Barclay Els',
+                strength: 6,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/barclay-els-preview.jpg',
+                imageBig: 'images/cardImages/barclay-els-big.jpg'
+            },
+            {
+                name: 'Havekar Healer',
+                strength: 0,
+                abilities: 'Medic',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/havekar-healer-preview.jpg',
+                imageBig: 'images/cardImages/havekar-healer-big.jpg'
+            },
+            {
+                name: 'Vrihedd Brigade Veteran',
+                strength: 5,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/vrihedd-brigade-veteran-preview.jpg',
+                imageBig: 'images/cardImages/vrihedd-brigade-veteran-big.jpg'
+            },
+            {
+                name: 'Dol Blathanna Archer',
+                strength: 6,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/dol-blathanna-archer-preview.jpg',
+                imageBig: 'images/cardImages/dol-blathanna-archer-big.jpg'
+            },
+            {
+                name: 'Dol Blathanna Scout',
+                strength: 6,
+                abilities: 'Agile',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/dol-blathanna-scout-preview.jpg',
+                imageBig: 'images/cardImages/dol-blathanna-scout-big.jpg'
+            },
+            {
+                name: 'Dwarven Skirmisher',
+                strength: 3,
+                abilities: 'Muster',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/dwarven-skirmisher-preview.jpg',
+                imageBig: 'images/cardImages/dwarven-skirmisher-big.jpg'
+            },
+            {
+                name: 'Mahakaman Defender',
+                strength: 5,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/mahakaman-defender-preview.jpg',
+                imageBig: 'images/cardImages/mahakaman-defender-big.jpg'
+            },
+            {
+                name: 'Elven Skirmisher',
+                strength: 2,
+                abilities: 'Muster',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/elven-skirmisher-preview.jpg',
+                imageBig: 'images/cardImages/elven-skirmisher-big.jpg'
+            },
+            {
+                name: 'Vrihedd Brigade Recruit',
+                strength: 4,
+                abilities: '',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/vrihedd-brigade-recruit-preview.jpg',
+                imageBig: 'images/cardImages/vrihedd-brigade-recruit-big.jpg'
+            },
+            {
+                name: 'Havekar Smuggler',
+                strength: 5,
+                abilities: 'Muster',
+                faction: "Scoia’tael",
+                isHero: false,
+                image: 'images/cardImages/havekar-smuggler-preview.jpg',
+                imageBig: 'images/cardImages/havekar-smuggler-big.jpg'
             }
         ];
 
