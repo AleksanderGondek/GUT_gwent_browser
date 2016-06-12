@@ -385,13 +385,256 @@ app.service('cards', function () {
                 imageBig: 'images/cardImages/dun-banner-medic-big.jpg'
             },
             {
-                name: '',
-                strength: 0,
+                name: 'Letho of Gulet',
+                strength: 10,
                 abilities: '',
-                faction: 'Northern Realms',
+                faction: 'Nilfgaard',
+                isHero: true,
+                image: 'images/cardImages/letho-of-gulet-preview.jpg',
+                imageBig: 'images/cardImages/letho-of-gulet-big.jpg'
+            },
+            {
+                name: 'Menno Coehoorn',
+                strength: 10,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: true,
+                image: 'images/cardImages/menno-coehoorn-preview.jpg',
+                imageBig: 'images/cardImages/menno-coehoorn-big.jpg'
+            },
+            {
+                name: 'Morvran Voorhis',
+                strength: 10,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: true,
+                image: 'images/cardImages/morvran-voorhis-preview.jpg',
+                imageBig: 'images/cardImages/morvran-voorhis-big.jpg'
+            },
+            {
+                name: 'Tibor Eggebracht',
+                strength: 10,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: true,
+                image: 'images/cardImages/tibor-eggebracht-preview.jpg',
+                imageBig: 'images/cardImages/tibor-eggebracht-big.jpg'
+            },
+            {
+                name: 'Albrich',
+                strength: 2,
+                abilities: '',
+                faction: 'Nilfgaard',
                 isHero: false,
-                image: 'images/cardImages/-preview.jpg',
-                imageBig: 'images/cardImages/-big.jpg'
+                image: 'images/cardImages/albrich-preview.jpg',
+                imageBig: 'images/cardImages/albrich-big.jpg'
+            },
+            {
+                name: 'Assire var Anahid',
+                strength: 6,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/assire-var-anahid-preview.jpg',
+                imageBig: 'images/cardImages/assire-var-anahid-big.jpg'
+            },
+            {
+                name: 'Cynthia',
+                strength: 4,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/cynthia-preview.jpg',
+                imageBig: 'images/cardImages/cynthia-big.jpg'
+            },
+            {
+                name: 'Fringilla Vigo',
+                strength: 6,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/fringilla-vigo-preview.jpg',
+                imageBig: 'images/cardImages/fringilla-vigo-big.jpg'
+            },
+            {
+                name: 'Morteisen',
+                strength: 3,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/morteisen-preview.jpg',
+                imageBig: 'images/cardImages/morteisen-big.jpg'
+            },
+            {
+                name: 'Rainfarn',
+                strength: 4,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/rainfarn-preview.jpg',
+                imageBig: 'images/cardImages/rainfarn-big.jpg'
+            },
+            {
+                name: 'Renuald aep Matsen',
+                strength: 5,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/renuald-aep-matsen-preview.jpg',
+                imageBig: 'images/cardImages/renuald-aep-matsen-big.jpg'
+            },
+            {
+                name: 'Rotten Mangonel',
+                strength: 3,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/rotten-mangonel-preview.jpg',
+                imageBig: 'images/cardImages/rotten-mangonel-big.jpg'
+            },
+            {
+                name: 'Shilard Fitz-Oesterlen',
+                strength: 7,
+                abilities: 'Spy',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/shilard-fitz-oesterlen-preview.jpg',
+                imageBig: 'images/cardImages/shilard-fitz-oesterlen-big.jpg'
+            },
+            {
+                name: 'Stefan Skellen',
+                strength: 9,
+                abilities: 'Spy',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/stefan-skellen-preview.jpg',
+                imageBig: 'images/cardImages/stefan-skellen-big.jpg'
+            },
+            {
+                name: 'Sweers',
+                strength: 2,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/sweers-preview.jpg',
+                imageBig: 'images/cardImages/sweers-big.jpg'
+            },
+            {
+                name: 'Vanhemar',
+                strength: 4,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/vanhemar-preview.jpg',
+                imageBig: 'images/cardImages/vanhemar-big.jpg'
+            },
+            {
+                name: 'Vattier de Rideaux',
+                strength: 4,
+                abilities: 'Spy',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/vattier-de-rideaux-preview.jpg',
+                imageBig: 'images/cardImages/vattier-de-rideaux-big.jpg'
+            },
+            {
+                name: 'Vreemde',
+                strength: 2,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/vreemde-preview.jpg',
+                imageBig: 'images/cardImages/vreemde-big.jpg'
+            },
+            {
+                name: 'Cahir Mawr Dyffryn aep Ceallach',
+                strength: 6,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/cahir-mawr-dyffryn-aep-ceallach-preview.jpg',
+                imageBig: 'images/cardImages/cahir-mawr-dyffryn-aep-ceallach-big.jpg'
+            },
+            {
+                name: 'Puttkammer',
+                strength: 3,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/puttkammer-preview.jpg',
+                imageBig: 'images/cardImages/puttkammer-big.jpg'
+            },
+            {
+                name: 'Etolian Auxiliary Archers',
+                strength: 1,
+                abilities: 'Medic',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/etolian-auxiliary-archers-preview.jpg',
+                imageBig: 'images/cardImages/etolian-auxiliary-archers-big.jpg'
+            },
+            {
+                name: 'Black Infantry Archer',
+                strength: 10,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/black-infantry-archer-preview.jpg',
+                imageBig: 'images/cardImages/black-infantry-archer-big.jpg'
+            },
+            {
+                name: 'Siege Technician',
+                strength: 0,
+                abilities: 'Medic',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/siege-technician-preview.jpg',
+                imageBig: 'images/cardImages/siege-technician-big.jpg'
+            },
+            {
+                name: 'Heavy Zerrikanian Fire Scorpion',
+                strength: 10,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/heavy-zerrikanian-fire-scorpion-preview.jpg',
+                imageBig: 'images/cardImages/heavy-zerrikanian-fire-scorpion-big.jpg'
+            },
+            {
+                name: 'Impera Brigade',
+                strength: 3,
+                abilities: 'Bond',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/impera-brigade-preview.jpg',
+                imageBig: 'images/cardImages/impera-brigade-big.jpg'
+            },
+            {
+                name: 'Nausicaa Cavalry Brigade',
+                strength: 2,
+                abilities: 'Bond',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/nausicaa-cavalry-brigade-preview.jpg',
+                imageBig: 'images/cardImages/nausicaa-cavalry-brigade-big.jpg'
+            },
+            {
+                name: 'Siege Engineer',
+                strength: 6,
+                abilities: '',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/siege-engineer-preview.jpg',
+                imageBig: 'images/cardImages/siege-engineer-big.jpg'
+            },
+            {
+                name: 'Young Emissary',
+                strength: 5,
+                abilities: 'Bond',
+                faction: 'Nilfgaard',
+                isHero: false,
+                image: 'images/cardImages/young-emissary-preview.jpg',
+                imageBig: 'images/cardImages/young-emissary-big.jpg'
             }
         ];
 
