@@ -38,6 +38,12 @@
     margin-bottom: 5px;
 }
 
+.win-itemcontainer .win-itembox, .win-listview .win-itembox {
+    background-image: url(../images/cardback.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
 .no-padding {
     padding: 0px !important;
 }

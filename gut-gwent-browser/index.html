@@ -51,7 +51,7 @@
                             </ul>
                             <div class="navbar-form navbar-right">
                                 <div class="form-group">
-                                    <input type="search" class="form-control topsearch" placeholder="Search">
+                                    <input type="search" class="form-control topsearch" placeholder="Search" ng-model="filter" ng-model-options="{ debounce: 1000 }" ng-change="filterOut()">
                                 </div>
                                 <button type="submit" class="btn btn-default"></button>
                             </div>
@@ -62,15 +62,15 @@
         </div>
         <div ng-show="currentView === applicationViews[0]">
             <div class="row">
-                <win-list-view item-data-source="cards" selection="cardsSelected" id="listView">
+                <win-list-view item-data-source="cards" selection="cardsSelected" selection-mode="'multi'" tap-behavior="'invokeOnly'" id="listView">
                     <win-list-view-header></win-list-view-header>
                     <win-item-template>
-                        <div class="card-tile color-bg-light-neutral-mid" ng-class="getCardStyleFromFaction(item.data.faction)">
+                        <div class="card-tile color-bg-light-neutral-mid" ng-class="getCardStyleFromFaction(item.data.faction)" ng-show="item.data.matchesFilter">
                             <div class="card-image">
                                 <img ng-src="{{item.data.image}}"/>
                             </div>
                             <p class="type-t9 no-padding">
-                                <strong>Name: </strong>{{item.data.name}}
+                                <strong>Name: </strong>{{item.data.name | limitTo:23}}
                             </p>
                             <p class="type-t9 no-padding">
                                 <strong>Strength: </strong>{{item.data.strength}}
@@ -110,6 +110,7 @@
             </win-list-view>
         </div>
         <div ng-show="currentView === applicationViews[2]">
+            <img src="images/gwentcardgame-main-logo-no-text-small.png"/>
             <h4><span class="glyph glyph-help" aria-hidden="true"></span> About</h4>
             <p>This is a simple application, written to learn how to use Windows Universals Apps with WinJs.</p>
             <p>Subject of this program was picked due to my interests – I just like playing Gwent.</p>
@@ -117,11 +118,11 @@
         </div>
         <div id="listItemFlyout" data-win-control="WinJS.UI.Flyout">
             <img id="cardDetailsImage" src="#"/>
-            <p class="type-t9 no-padding" id="cardDetailsName"></p>
-            <p class="type-t9 no-padding" id="cardDetailsFaction"></p>
-            <p class="type-t9 no-padding" id="cardDetailsStrength"></p>
-            <p class="type-t9 no-padding" id="cardDetailsAbilities"></p>
-            <p class="type-t9 no-padding" id="cardDetailsIsHero"></p>
+            <p class="type-t9 no-padding" id="cardDetailsName" style="display: none;"></p>
+            <p class="type-t9 no-padding" id="cardDetailsFaction" style="display: none;"></p>
+            <p class="type-t9 no-padding" id="cardDetailsStrength" style="display: none;"></p>
+            <p class="type-t9 no-padding" id="cardDetailsAbilities" style="display: none;"></p>
+            <p class="type-t9 no-padding" id="cardDetailsIsHero" style="display: none;"></p>
         </div>
     </div>
     </body>
