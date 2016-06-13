@@ -835,6 +835,312 @@ app.service('cards', function () {
                 isHero: false,
                 image: 'images/cardImages/havekar-smuggler-preview.jpg',
                 imageBig: 'images/cardImages/havekar-smuggler-big.jpg'
+            },
+            {
+                name: 'Draug',
+                strength: 10,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: true,
+                image: 'images/cardImages/draug-preview.jpg',
+                imageBig: 'images/cardImages/draug-big.jpg'
+            },
+            {
+                name: 'Kayran',
+                strength: 10,
+                abilities: 'Morale',
+                faction: 'Monsters',
+                isHero: true,
+                image: 'images/cardImages/kayran-preview.jpg',
+                imageBig: 'images/cardImages/kayran-big.jpg'
+            },
+            {
+                name: 'Imlerith',
+                strength: 10,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: true,
+                image: 'images/cardImages/imlerith-preview.jpg',
+                imageBig: 'images/cardImages/imlerith-big.jpg'
+            },
+            {
+                name: 'Leshen',
+                strength: 10,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: true,
+                image: 'images/cardImages/leshen-preview.jpg',
+                imageBig: 'images/cardImages/leshen-big.jpg'
+            },
+            {
+                name: 'Forktail',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/forktail-preview.jpg',
+                imageBig: 'images/cardImages/forktail-big.jpg'
+            },
+            {
+                name: 'Earth Elemental',
+                strength: 6,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/earth-elemental-preview.jpg',
+                imageBig: 'images/cardImages/earth-elemental-big.jpg'
+            },
+            {
+                name: 'Fiend',
+                strength: 6,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/fiend-preview.jpg',
+                imageBig: 'images/cardImages/fiend-big.jpg'
+            },
+            {
+                name: 'Plague Maiden',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/plague-maiden-preview.jpg',
+                imageBig: 'images/cardImages/plague-maiden-big.jpg'
+            },
+            {
+                name: 'Griffin',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/griffin-preview.jpg',
+                imageBig: 'images/cardImages/griffin-big.jpg'
+            },
+            {
+                name: 'Werewolf',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/werewolf-preview.jpg',
+                imageBig: 'images/cardImages/werewolf-big.jpg'
+            },
+            {
+                name: 'Botchling',
+                strength: 4,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/botchling-preview.jpg',
+                imageBig: 'images/cardImages/botchling-big.jpg'
+            },
+            {
+                name: 'Frightener',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/frightener-preview.jpg',
+                imageBig: 'images/cardImages/frightener-big.jpg'
+            },
+            {
+                name: 'Ice Giant',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/ice-giant-preview.jpg',
+                imageBig: 'images/cardImages/ice-giant-big.jpg'
+            },
+            {
+                name: 'Endrega',
+                strength: 2,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/endrega-preview.jpg',
+                imageBig: 'images/cardImages/endrega-big.jpg'
+            },
+            {
+                name: 'Harpy',
+                strength: 2,
+                abilities: 'Agile',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/harpy-preview.jpg',
+                imageBig: 'images/cardImages/harpy-big.jpg'
+            },
+            {
+                name: 'Cockatrice',
+                strength: 2,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/cockatrice-preview.jpg',
+                imageBig: 'images/cardImages/cockatrice-big.jpg'
+            },
+            {
+                name: 'Gargoyle',
+                strength: 2,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/gargoyle-preview.jpg',
+                imageBig: 'images/cardImages/gargoyle-big.jpg'
+            },
+            {
+                name: 'Celaeno Harpy',
+                strength: 2,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/celaeno-harpy-preview.jpg',
+                imageBig: 'images/cardImages/celaeno-harpy-big.jpg'
+            },
+            {
+                name: 'Grave Hag',
+                strength: 5,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/grave-hag-preview.jpg',
+                imageBig: 'images/cardImages/grave-hag-big.jpg'
+            },
+            {
+                name: 'Fire Elemental',
+                strength: 6,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/fire-elemental-preview.jpg',
+                imageBig: 'images/cardImages/fire-elemental-big.jpg'
+            },
+            {
+                name: 'Foglet',
+                strength: 2,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/foglet-preview.jpg',
+                imageBig: 'images/cardImages/foglet-big.jpg'
+            },
+            {
+                name: 'Wyvern',
+                strength: 2,
+                abilities: '',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/wyvern-preview.jpg',
+                imageBig: 'images/cardImages/wyvern-big.jpg'
+            },
+            {
+                name: 'Arachas Behemoth',
+                strength: 6,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/arachas-behemoth-preview.jpg',
+                imageBig: 'images/cardImages/arachas-behemoth-big.jpg'
+            },
+            {
+                name: 'Arachas',
+                strength: 4,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/arachas-preview.jpg',
+                imageBig: 'images/cardImages/arachas-big.jpg'
+            },
+            {
+                name: 'Nekker',
+                strength: 2,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/nekker-preview.jpg',
+                imageBig: 'images/cardImages/nekker-big.jpg'
+            },
+            {
+                name: 'Vampire Ekimmara',
+                strength: 4,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/vampire-ekimmara-preview.jpg',
+                imageBig: 'images/cardImages/vampire-ekimmara-big.jpg'
+            },
+            {
+                name: 'Vampire Fleder',
+                strength: 4,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/vampire-fleder-preview.jpg',
+                imageBig: 'images/cardImages/vampire-fleder-big.jpg'
+            },
+            {
+                name: 'Vampire Garkain',
+                strength: 4,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/vampire-garkain-preview.jpg',
+                imageBig: 'images/cardImages/vampire-garkain-big.jpg'
+            },
+            {
+                name: 'Vampire Bruxa',
+                strength: 4,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/vampire-bruxa-preview.jpg',
+                imageBig: 'images/cardImages/vampire-bruxa-big.jpg'
+            },
+            {
+                name: 'Vampire Katakan',
+                strength: 5,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/vampire-katakan-preview.jpg',
+                imageBig: 'images/cardImages/vampire-katakan-big.jpg'
+            },
+            {
+                name: 'Ghoul',
+                strength: 1,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/ghoul-preview.jpg',
+                imageBig: 'images/cardImages/ghoul-big.jpg'
+            },
+            {
+                name: 'Crone Brewess',
+                strength: 6,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/crone-brewess-preview.jpg',
+                imageBig: 'images/cardImages/crone-brewess-big.jpg'
+            },
+            {
+                name: 'Crone Weavess',
+                strength: 6,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/crone-weavess-preview.jpg',
+                imageBig: 'images/cardImages/crone-weavess-big.jpg'
+            },
+            {
+                name: 'Crone Whispess',
+                strength: 6,
+                abilities: 'Muster',
+                faction: 'Monsters',
+                isHero: false,
+                image: 'images/cardImages/crone-whispess-preview.jpg',
+                imageBig: 'images/cardImages/crone-whispess-big.jpg'
             }
         ];
 
@@ -912,13 +1218,16 @@ app.controller('mainCtrl', function ($scope, cards) {
             if ($scope.filter === '') {
                 $scope.cards[i].matchesFilter = true;
             }
-            else if ($scope.cards[i].name.indexOf($scope.filter) > -1) {
+            else if ($scope.cards[i].name.toLowerCase().indexOf($scope.filter.toLowerCase()) > -1) {
                  $scope.cards[i].matchesFilter = true;
             }
-            else if ($scope.cards[i].faction.indexOf($scope.filter) > -1) {
+            else if ($scope.cards[i].faction.toLowerCase().indexOf($scope.filter.toLowerCase()) > -1) {
                  $scope.cards[i].matchesFilter = true;
             }
-            else if ($scope.cards[i].abilities.indexOf($scope.filter) > -1) {
+            else if ($scope.cards[i].abilities.toLowerCase().indexOf($scope.filter.toLowerCase()) > -1) {
+                $scope.cards[i].matchesFilter = true;
+            }
+            else if ($scope.filter === 'hero' && $scope.cards[i].isHero) {
                 $scope.cards[i].matchesFilter = true;
             } else {
                 $scope.cards[i].matchesFilter = false;
